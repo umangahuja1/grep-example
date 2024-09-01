@@ -294,7 +294,7 @@ tail -f app.log | grep  -i "error"
 ```
 ---
 
-# Conclusion
+## Conclusion
 
 Lastly, there's a whole realm to explore when combining the power of regular expressions (regex) with grep, which can take your searching capabilities to the next level. We’ll save that for a dedicated article another time. For now, just know that you can pass regex patterns to grep to accomplish much more in your searches.
 
