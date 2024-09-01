@@ -1,0 +1,59 @@
+04-Sep-2024 09:12:14.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.53
+04-Sep-2024 09:12:14.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 17 2021 15:26:08 UTC
+04-Sep-2024 09:12:14.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.53.0
+04-Sep-2024 09:12:14.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+04-Sep-2024 09:12:14.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-74-generic
+04-Sep-2024 09:12:14.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Sep-2024 09:12:14.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+04-Sep-2024 09:12:14.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.20.04
+04-Sep-2024 09:12:14.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+04-Sep-2024 09:12:14.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat
+04-Sep-2024 09:12:14.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat
+04-Sep-2024 09:12:14.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties
+04-Sep-2024 09:12:14.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Sep-2024 09:12:14.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+04-Sep-2024 09:12:14.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Sep-2024 09:12:14.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Sep-2024 09:12:14.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Sep-2024 09:12:14.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512M
+04-Sep-2024 09:12:14.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024M
+04-Sep-2024 09:12:14.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+04-Sep-2024 09:12:14.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxGCPauseMillis=500
+04-Sep-2024 09:12:14.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:GCTimeRatio=4
+04-Sep-2024 09:12:14.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+04-Sep-2024 09:12:14.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9090
+04-Sep-2024 09:12:14.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+04-Sep-2024 09:12:14.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+04-Sep-2024 09:12:14.597 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Sep-2024 09:12:14.603 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [748] milliseconds
+04-Sep-2024 09:12:14.642 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Sep-2024 09:12:14.642 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.53]
+04-Sep-2024 09:12:14.657 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/webapps/ROOT]
+04-Sep-2024 09:12:15.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/webapps/ROOT] has finished in [522] ms
+04-Sep-2024 09:12:15.182 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Sep-2024 09:12:15.200 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [597] milliseconds
+
+04-Sep-2024 12:31:47.413 WARNING [http-nio-8080-exec-10] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+04-Sep-2024 12:31:47.413 WARNING [http-nio-8080-exec-10] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+
+04-Sep-2024 15:23:45.889 INFO [http-nio-8080-exec-12] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.io.EOFException: null
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1276)
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1186)
+		at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:727)
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:367)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:898)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+
+04-Sep-2024 16:02:13.049 SEV
+
